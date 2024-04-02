@@ -86,6 +86,7 @@ class penggunaPage {
         cy.contains('success').should('be.visible')
         cy.contains('item diubah').should('be.visible')
         cy.wait(1000)
+        cy.get(locator.dataid.pengguna_alert_close).eq(0).click({force:true})
     }
     async alertsuksestambah() {
         cy.contains('success').should('be.visible')

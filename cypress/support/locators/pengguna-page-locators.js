@@ -20,5 +20,6 @@ module.exports ={
         pengguna_button_toggle:'[class="chakra-button css-1t6k0fn"]',
         pengguna_button_simpan:'.chakra-button:contains("simpan")',
         pengguna_alert:'[role="alert"]',
+        pengguna_alert_close:'[aria-label="Close"]',
     }
 }
